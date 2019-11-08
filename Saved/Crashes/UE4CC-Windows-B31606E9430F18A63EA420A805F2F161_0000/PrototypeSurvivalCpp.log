@@ -1,0 +1,829 @@
+﻿Log file open, 12/15/18 09:20:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PrototypeSurvivalCpp
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.265155
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Voxel
+LogStreaming: Display: Took  0.388s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.15-08.20.51:960][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.15-08.20.51:960][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.15-08.20.51:981][  0]LogHAL: Display: Platform has ~ 8 GB [8509480960 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.15-08.20.51:981][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.15-08.20.51:981][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.15-08.20.52:010][  0]LogInit: Computer: DESKTOP-LUEPPRP
+[2018.12.15-08.20.52:011][  0]LogInit: User: Yukinoshita
+[2018.12.15-08.20.52:011][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.12.15-08.20.52:011][  0]LogInit: High frequency timer resolution =2.825499 MHz
+[2018.12.15-08.20.52:012][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.15-08.20.52:012][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.15-08.20.52:012][  0]LogMemory: Process Physical Memory: 101.27 MB used, 101.27 MB peak
+[2018.12.15-08.20.52:012][  0]LogMemory: Process Virtual Memory: 84.15 MB used, 84.15 MB peak
+[2018.12.15-08.20.52:012][  0]LogMemory: Physical Memory: 4241.90 MB used,  3873.37 MB free, 8115.27 MB total
+[2018.12.15-08.20.52:012][  0]LogMemory: Virtual Memory: 4611.59 MB used,  3873.37 MB free, 134217728.00 MB total
+[2018.12.15-08.20.52:348][  0]LogInit: Using OS detected language (fr-FR).
+[2018.12.15-08.20.52:348][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.12.15-08.20.52:402][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2018.12.15-08.20.52:429][  0]LogStreaming: Display: Took  0.081s to InitEngineTextLocalization.
+[2018.12.15-08.20.52:429][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.15-08.20.52:670][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.15-08.20.52:670][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.15-08.20.55:422][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.15-08.20.55:422][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.15-08.20.55:802][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.15-08.20.55:802][  0]LogD3D11RHI:       2010/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.15-08.20.55:810][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.12.15-08.20.55:810][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.15-08.20.55:814][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.15-08.20.55:814][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.15-08.20.55:814][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.15-08.20.55:850][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.15-08.20.55:850][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.15-08.20.55:850][  0]LogWindows: EnumDisplayDevices:
+[2018.12.15-08.20.55:850][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.12.15-08.20.55:851][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.15-08.20.55:851][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.15-08.20.55:852][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.15-08.20.55:852][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.15-08.20.55:852][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.15-08.20.55:852][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.15-08.20.55:852][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.12.15-08.20.55:957][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.15-08.20.55:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.15-08.20.55:986][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Intermediate/Shaders/WorkingDirectory/12284/).
+[2018.12.15-08.20.55:987][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yukinoshita/AppData/Local/Temp/UnrealShaderWorkingDir/FFD189C0417A6BF424BF739507C44AEA/'.
+[2018.12.15-08.20.58:355][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.15-08.20.58:398][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.15-08.20.58:426][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.15-08.20.58:461][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.15-08.20.58:493][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.15-08.20.58:525][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.15-08.20.58:562][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.15-08.20.58:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.15-08.20.58:622][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:768][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.15-08.20.58:809][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.15-08.20.58:926][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.15-08.20.58:926][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.15-08.20.58:967][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.15-08.20.58:967][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.15-08.20.58:989][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.15-08.20.59:034][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.15-08.20.59:063][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.15-08.20.59:109][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.15-08.20.59:137][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.15-08.20.59:137][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.15-08.20.59:950][  0]LogXGEController: Cleaning working directory: C:/Users/Yukinoshita/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.15-08.20.59:951][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.15-08.20.59:951][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.15-08.20.59:951][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.15-08.21.01:333][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.15-08.21.02:356][  0]LogDerivedDataCache: Loaded boot cache 1.02s 79MB C:/Users/Yukinoshita/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.15-08.21.02:358][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yukinoshita/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.15-08.21.02:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.15-08.21.02:358][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.15-08.21.02:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.15-08.21.02:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.15-08.21.02:436][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.15-08.21.02:472][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yukinoshita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.15-08.21.02:472][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.15-08.21.02:472][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.15-08.21.02:515][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.15-08.21.02:516][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.15-08.21.02:580][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.15-08.21.03:174][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.12.15-08.21.03:567][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.15-08.21.05:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.15-08.21.05:665][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.15-08.21.05:666][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.15-08.21.05:666][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.15-08.21.05:666][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.15-08.21.05:766][  0]LogNetVersion: PrototypeSurvivalCpp 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2816467048)
+[2018.12.15-08.21.08:507][  0]LogLinker: Warning: Asset '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Plugins/Voxel/Content/Markers/Shape_Cube.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.12.15-08.21.08:959][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.310254 seconds
+[2018.12.15-08.21.08:967][  0]LogUObjectArray: 40551 objects as part of root set at end of initial load.
+[2018.12.15-08.21.08:967][  0]LogUObjectAllocator: 7238072 out of 0 bytes used by permanent object pool.
+[2018.12.15-08.21.08:967][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.15-08.21.41:919][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.15-08.21.41:974][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.15-08.21.43:018][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2018.12.15-08.21.43:018][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2018.12.15-08.21.43:019][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2018.12.15-08.21.43:019][  0]Error: CDO Constructor (PrototypeSurvivalCppGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2018.12.15-08.21.43:019][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2018.12.15-08.21.43:019][  0]LogUObjectBase: Warning: Error: CDO Constructor (PrototypeSurvivalCppGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2018.12.15-08.21.44:575][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.15-08.21.46:263][  0]SourceControl: Source control is disabled
+[2018.12.15-08.21.46:263][  0]SourceControl: Source control is disabled
+[2018.12.15-08.21.46:516][  0]SourceControl: Source control is disabled
+[2018.12.15-08.21.46:810][  0]SourceControl: Source control is disabled
+[2018.12.15-08.21.50:428][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.15-08.21.50:750][  0]LogOcInput: OculusInput pre-init called
+[2018.12.15-08.21.51:713][  0]LogEngine: Initializing Engine...
+[2018.12.15-08.21.51:715][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.15-08.21.51:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.15-08.21.51:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.15-08.21.51:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.15-08.21.51:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.15-08.21.52:165][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.15-08.21.52:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.15-08.21.52:576][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.21.52:925][  0]LogInit: FAudioDevice initialized.
+[2018.12.15-08.21.52:926][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.15-08.21.53:147][  0]LogDerivedDataCache: Saved boot cache 0.22s 79MB C:/Users/Yukinoshita/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.15-08.21.53:175][  0]LogInit: Texture streaming: Enabled
+[2018.12.15-08.21.53:377][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.15-08.21.53:454][  0]LogInit: Transaction tracking system initialized
+[2018.12.15-08.21.53:867][  0]BlueprintLog: New page: Editor Load
+[2018.12.15-08.21.56:454][  0]LocalizationService: Localization service is disabled
+[2018.12.15-08.21.57:116][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.12.15-08.21.57:116][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.12.15-08.21.57:116][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2018.12.15-08.21.58:935][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.15-08.21.58:935][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.15-08.21.58:936][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.15-08.21.58:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.15-08.21.58:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.15-08.21.58:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.15-08.21.58:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.15-08.22.00:923][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/' took 0.71s
+[2018.12.15-08.22.04:281][  0]SourceControl: Source control is disabled
+[2018.12.15-08.22.04:281][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.15-08.22.04:281][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.12.15-08.22.04:281][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.15-08.22.04:433][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151,35ms to complete.
+[2018.12.15-08.22.04:433][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.152
+[2018.12.15-08.22.04:505][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.15-08.22.04:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.22.04:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.22.04:741][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.22.04:755][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.22.05:209][  0]LogCollectionManager: Loaded 0 collections in 0.005193 seconds
+[2018.12.15-08.22.05:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/Collections/' took 0.01s
+[2018.12.15-08.22.05:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/Developers/Yukinoshita/Collections/' took 0.01s
+[2018.12.15-08.22.05:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/Collections/' took 0.01s
+[2018.12.15-08.22.05:257][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.15-08.22.05:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2787 classes and 628 folders.
+[2018.12.15-08.22.05:286][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.12.15-08.22.06:838][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2018.12.15-08.22.06:906][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2018.12.15-08.22.07:063][  0]LogSlate: Took 0.018959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.15-08.22.07:097][  0]LogSlate: Took 0.029634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.15-08.22.07:140][  0]LogSlate: Took 0.033625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.15-08.22.07:367][  0]LogRenderer: Reallocating scene render targets to support 888x640 Format 10 NumSamples 1 (Frame:1).
+[2018.12.15-08.22.07:642][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.12.15-08.22.07:642][  0]LogLoad: (Engine Initialization) Total time: 96.21 seconds
+[2018.12.15-08.22.07:642][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.15-08.22.07:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.15-08.22.07:715][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.15-08.22.08:429][ 17]LogAssetRegistry: Asset discovery search completed in 65.2781 seconds
+[2018.12.15-08.22.08:437][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.15-08.22.08:437][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2018.12.15-08.22.08:690][ 31]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.15-08.23.16:469][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.23.31:242][392]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/ThirdPersonCharacter/GreystonePlayerCharacter.GreystonePlayerCharacter
+[2018.12.15-08.23.31:913][392]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.12.15-08.23.33:183][392]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.23.33:190][392]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.23.33:281][392]LogSlate: Took 0.071224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.15-08.23.34:060][393]LogSlate: Took 0.004393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.15-08.23.40:000][660]LogSlate: Window 'GreystonePlayerCharacter' being destroyed
+[2018.12.15-08.23.54:832][190]LogTexture: Display: Building textures: CA_Gradient (RGBA16F, 256X256)
+[2018.12.15-08.23.55:319][190]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.23.55:356][190]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap
+[2018.12.15-08.23.55:413][190]Cmd: MAP LOAD FILE="../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Map/VoxelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.15-08.23.55:413][190]LightingResults: New page: Lighting Build
+[2018.12.15-08.23.55:420][190]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0008 seconds. Added 5 classes and 0 folders.
+[2018.12.15-08.23.55:421][190]LoadErrors: New page: Loading map: VoxelMap.umap
+[2018.12.15-08.23.55:422][190]MapCheck: New page: Map Check
+[2018.12.15-08.23.55:422][190]LightingResults: New page: Lighting Build
+[2018.12.15-08.23.55:622][190]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.15-08.23.55:703][190]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.15-08.23.56:009][190]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 305,498ms to complete.
+[2018.12.15-08.23.56:010][190]LogFileHelpers: Loading map 'VoxelMap' took 0.599
+[2018.12.15-08.23.59:622][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.23.59:644][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.23.59:657][284]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:23:59)
+[2018.12.15-08.23.59:657][284]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.23.59:660][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
+[2018.12.15-08.23.59:661][284]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.23.59:662][284]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2018.12.15-08.23.59:662][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004429s)
+[2018.12.15-08.23.59:697][284]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.23.59:729][284]LogInit: FAudioDevice initialized.
+[2018.12.15-08.23.59:774][284]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.23.59:776][284]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.23.59
+[2018.12.15-08.23.59:776][284]LogWorld: Bringing up level for play took: 0.000624
+[2018.12.15-08.23.59:801][284]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.12.15-08.23.59:801][284]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.23.59:802][284]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.23.59:802][284]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.23.59:802][284]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.23.59:804][284]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.23.59:805][284]LogVoxel: Warning: Loading world
+[2018.12.15-08.23.59:852][284]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.23.59:852][284]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 0,753
+[2018.12.15-08.24.00:240][293]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -615.780457
+[2018.12.15-08.24.05:431][370]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -221.063339
+[2018.12.15-08.25.09:139][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.25.09:148][916]LogVoxel: Warning: Unloading world
+[2018.12.15-08.25.09:300][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.25.09:342][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.25.09:456][917]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.15-08.39.16:573][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.39.16:722][660]LogAssetEditorManager: Opening Asset editor for VoxelGraphGenerator /Game/ThirdPersonBP/VoxelMap/Map/MyVoxelWorld.MyVoxelWorld
+[2018.12.15-08.39.24:589][ 55]LogAssetEditorManager: Opening Asset editor for VoxelActorSpawner /Game/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawner.TreeActorSpawner
+[2018.12.15-08.39.27:727][234]LogAssetEditorManager: Opening Asset editor for VoxelActorGroup /Game/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.TreeActorSpawnerGroup
+[2018.12.15-08.43.22:932][527]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroup1FAA4D3349353982C34EA58CF9B44DD8.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.43.53:804][371]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.43.53:831][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.43.53:831][371]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:43:53)
+[2018.12.15-08.43.53:831][371]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.43.53:833][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2018.12.15-08.43.53:834][371]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.43.53:835][371]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2018.12.15-08.43.53:835][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.003467s)
+[2018.12.15-08.43.53:873][371]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.43.53:909][371]LogInit: FAudioDevice initialized.
+[2018.12.15-08.43.53:940][371]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.43.53:941][371]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.43.53
+[2018.12.15-08.43.53:941][371]LogWorld: Bringing up level for play took: 0.000617
+[2018.12.15-08.43.53:954][371]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.43.53:954][371]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.43.53:954][371]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.43.53:954][371]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.43.53:956][371]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.43.53:956][371]LogVoxel: Warning: Loading world
+[2018.12.15-08.43.54:004][371]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.43.54:004][371]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 0,905
+[2018.12.15-08.43.54:407][387]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -603.171387
+[2018.12.15-08.43.59:061][476]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -964.122681
+[2018.12.15-08.44.40:044][986]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -1002.531006
+[2018.12.15-08.45.05:674][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.45.05:687][277]LogVoxel: Warning: Unloading world
+[2018.12.15-08.45.05:796][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.45.05:844][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.45.05:907][278]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.15-08.45.06:832][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.45.12:993][699]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroup128C04064B258023817ACE844067A78F.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.45.14:483][787]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.45.14:507][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.45.14:508][787]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:45:14)
+[2018.12.15-08.45.14:508][787]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.45.14:509][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001678s)
+[2018.12.15-08.45.14:510][787]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.45.14:511][787]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2018.12.15-08.45.14:511][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.003047s)
+[2018.12.15-08.45.14:549][787]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.45.14:582][787]LogInit: FAudioDevice initialized.
+[2018.12.15-08.45.14:614][787]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.45.14:614][787]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.45.14
+[2018.12.15-08.45.14:615][787]LogWorld: Bringing up level for play took: 0.000639
+[2018.12.15-08.45.14:628][787]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.45.14:628][787]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.45.14:628][787]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.45.14:628][787]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.45.14:630][787]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.45.14:630][787]LogVoxel: Warning: Loading world
+[2018.12.15-08.45.14:676][787]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.45.14:676][787]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,423
+[2018.12.15-08.45.15:091][801]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -609.930603
+[2018.12.15-08.45.18:530][847]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -868.639038
+[2018.12.15-08.45.31:576][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.45.31:585][ 42]LogVoxel: Warning: Unloading world
+[2018.12.15-08.45.31:715][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.45.31:767][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.45.31:843][ 43]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.15-08.45.33:046][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.45.47:629][981]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroup53DF7D5F414DD9796F7BD3912B63E2B7.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.45.48:761][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.45.48:782][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.45.48:782][ 48]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:45:48)
+[2018.12.15-08.45.48:782][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.45.48:785][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
+[2018.12.15-08.45.48:788][ 48]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.45.48:788][ 48]LogPlayLevel: PIE: World Init took: (0.001766s)
+[2018.12.15-08.45.48:788][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.005836s)
+[2018.12.15-08.45.48:830][ 48]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.45.48:864][ 48]LogInit: FAudioDevice initialized.
+[2018.12.15-08.45.48:900][ 48]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.45.48:901][ 48]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.45.48
+[2018.12.15-08.45.48:901][ 48]LogWorld: Bringing up level for play took: 0.000583
+[2018.12.15-08.45.48:915][ 48]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.45.48:915][ 48]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.45.48:915][ 48]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.45.48:915][ 48]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.45.48:917][ 48]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.45.48:917][ 48]LogVoxel: Warning: Loading world
+[2018.12.15-08.45.48:963][ 48]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.45.48:963][ 48]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,137
+[2018.12.15-08.45.49:398][ 63]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -633.018127
+[2018.12.15-08.45.51:525][101]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -875.346069
+[2018.12.15-08.46.01:595][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.46.01:606][190]LogVoxel: Warning: Unloading world
+[2018.12.15-08.46.01:729][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.46.01:775][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.46.01:850][191]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.15-08.46.02:741][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.46.12:627][831]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroup2331613B48034544E2FB5F9E20776AAA.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.46.13:651][888]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.46.13:760][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.46.13:760][888]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:46:13)
+[2018.12.15-08.46.13:760][888]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.46.13:762][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002171s)
+[2018.12.15-08.46.13:763][888]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.46.13:764][888]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2018.12.15-08.46.13:764][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.003995s)
+[2018.12.15-08.46.13:805][888]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.46.13:839][888]LogInit: FAudioDevice initialized.
+[2018.12.15-08.46.13:871][888]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.46.13:871][888]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.46.13
+[2018.12.15-08.46.13:872][888]LogWorld: Bringing up level for play took: 0.000560
+[2018.12.15-08.46.13:885][888]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.46.13:885][888]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.46.13:885][888]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.46.13:885][888]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.46.13:887][888]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.46.13:887][888]LogVoxel: Warning: Loading world
+[2018.12.15-08.46.13:934][888]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.46.13:934][888]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 0,834
+[2018.12.15-08.46.14:251][899]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -593.279846
+[2018.12.15-08.46.16:563][939]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -855.390442
+[2018.12.15-08.46.47:332][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.46.47:340][312]LogVoxel: Warning: Unloading world
+[2018.12.15-08.46.47:454][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.46.47:502][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.46.47:557][313]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.15-08.46.49:993][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.47.03:946][292]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroupEB39E6E34FF7DC56709DBE91945EC4C0.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.47.05:009][353]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.47.05:034][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.47.05:034][353]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:47:05)
+[2018.12.15-08.47.05:034][353]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.47.05:036][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001920s)
+[2018.12.15-08.47.05:037][353]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.47.05:038][353]LogPlayLevel: PIE: World Init took: (0.001890s)
+[2018.12.15-08.47.05:038][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004037s)
+[2018.12.15-08.47.05:076][353]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.47.05:108][353]LogInit: FAudioDevice initialized.
+[2018.12.15-08.47.05:140][353]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.47.05:141][353]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.47.05
+[2018.12.15-08.47.05:141][353]LogWorld: Bringing up level for play took: 0.000649
+[2018.12.15-08.47.05:154][353]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.47.05:154][353]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.47.05:154][353]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.47.05:154][353]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.47.05:156][353]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.47.05:156][353]LogVoxel: Warning: Loading world
+[2018.12.15-08.47.05:202][353]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.47.05:202][353]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 0,103
+[2018.12.15-08.47.05:611][367]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -595.598511
+[2018.12.15-08.47.07:910][409]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -911.62384
+[2018.12.15-08.47.27:659][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.47.27:667][666]LogVoxel: Warning: Unloading world
+[2018.12.15-08.47.27:786][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.47.27:832][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.47.27:887][667]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.15-08.47.44:273][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.48.01:589][769]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/MyVoxelWorldEC23E91F4E5DFAC6CE2A8E90C0F2D026.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Map/MyVoxelWorld.uasset'
+[2018.12.15-08.48.03:008][853]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.48.03:032][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.48.03:032][853]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:48:03)
+[2018.12.15-08.48.03:032][853]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.48.03:035][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002692s)
+[2018.12.15-08.48.03:036][853]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.48.03:036][853]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2018.12.15-08.48.03:037][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004016s)
+[2018.12.15-08.48.03:076][853]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.48.03:108][853]LogInit: FAudioDevice initialized.
+[2018.12.15-08.48.03:140][853]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.48.03:141][853]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.48.03
+[2018.12.15-08.48.03:141][853]LogWorld: Bringing up level for play took: 0.000706
+[2018.12.15-08.48.03:154][853]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.48.03:154][853]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.48.03:154][853]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.48.03:154][853]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.48.03:156][853]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.48.03:156][853]LogVoxel: Warning: Loading world
+[2018.12.15-08.48.03:202][853]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.48.03:202][853]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 0,103
+[2018.12.15-08.48.03:615][870]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -600.44696
+[2018.12.15-08.48.05:780][912]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -904.410339
+[2018.12.15-08.48.15:204][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.48.15:211][ 10]LogVoxel: Warning: Unloading world
+[2018.12.15-08.48.15:345][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.48.15:390][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.48.15:472][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.15-08.48.16:055][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.50.06:974][895]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/VoxelMap/Actors/TreeActor.TreeActor
+[2018.12.15-08.52.31:819][479]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/VoxelMapF0F3B3914FCB882041843297A7897D37.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Map/VoxelMap.umap'
+[2018.12.15-08.52.34:548][639]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.52.34:575][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.52.34:575][639]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:52:34)
+[2018.12.15-08.52.34:575][639]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.52.34:578][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001967s)
+[2018.12.15-08.52.34:579][639]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.52.34:580][639]LogPlayLevel: PIE: World Init took: (0.001963s)
+[2018.12.15-08.52.34:580][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004178s)
+[2018.12.15-08.52.34:621][639]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.52.34:652][639]LogInit: FAudioDevice initialized.
+[2018.12.15-08.52.34:685][639]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.52.34:686][639]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.52.34
+[2018.12.15-08.52.34:686][639]LogWorld: Bringing up level for play took: 0.000617
+[2018.12.15-08.52.34:699][639]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.52.34:699][639]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.52.34:699][639]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.52.34:699][639]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.52.34:700][639]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.52.34:701][639]LogVoxel: Warning: Loading world
+[2018.12.15-08.52.34:747][639]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.52.34:748][639]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,352
+[2018.12.15-08.52.35:155][652]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -592.905945
+[2018.12.15-08.52.37:344][696]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -930.322693
+[2018.12.15-08.53.35:045][712]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -764.086243
+[2018.12.15-08.53.36:483][745]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -289.521393
+[2018.12.15-08.53.43:689][860]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -672.330994
+[2018.12.15-08.54.02:534][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.54.02:542][159]LogVoxel: Warning: Unloading world
+[2018.12.15-08.54.02:645][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.54.02:695][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.54.02:759][160]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.15-08.54.03:476][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.15-08.54.19:120][132]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActorSpawnerGroupA5C32C2C4BB3890ABFD3B79462BDC7D6.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Content/ThirdPersonBP/VoxelMap/Actors/TreeActorSpawnerGroup.uasset'
+[2018.12.15-08.54.53:697][196]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.54.54:439][224]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.54.54:465][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.54.54:465][224]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:54:54)
+[2018.12.15-08.54.54:465][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.54.54:467][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2018.12.15-08.54.54:469][224]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.54.54:469][224]LogPlayLevel: PIE: World Init took: (0.001973s)
+[2018.12.15-08.54.54:469][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004143s)
+[2018.12.15-08.54.54:512][224]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.54.54:547][224]LogInit: FAudioDevice initialized.
+[2018.12.15-08.54.54:556][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.54.54:590][224]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.54.54:591][224]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.54.54
+[2018.12.15-08.54.54:592][224]LogWorld: Bringing up level for play took: 0.000779
+[2018.12.15-08.54.54:605][224]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.54.54:605][224]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.54.54:605][224]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.54.54:606][224]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.54.54:608][224]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.54.54:609][224]LogVoxel: Warning: Loading world
+[2018.12.15-08.54.54:655][224]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.54.54:657][224]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,443
+[2018.12.15-08.54.54:692][224]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.12.15-08.54.55:034][232]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -598.182434
+[2018.12.15-08.54.58:541][280]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -895.57782
+[2018.12.15-08.55.34:828][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.55.34:855][710]LogSlate: Window 'PrototypeSurvivalCpp Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.15-08.55.34:918][710]LogVoxel: Warning: Unloading world
+[2018.12.15-08.55.34:982][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.55.35:071][711]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.12.15-08.55.42:374][148]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.57.49:980][536]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.57.50:820][570]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.57.50:847][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.57.50:847][570]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:57:50)
+[2018.12.15-08.57.50:847][570]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.57.50:849][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002333s)
+[2018.12.15-08.57.50:850][570]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.57.50:851][570]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2018.12.15-08.57.50:851][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.004051s)
+[2018.12.15-08.57.50:890][570]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.57.50:924][570]LogInit: FAudioDevice initialized.
+[2018.12.15-08.57.50:940][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.57.50:978][570]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.57.50:980][570]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.57.50
+[2018.12.15-08.57.50:980][570]LogWorld: Bringing up level for play took: 0.000985
+[2018.12.15-08.57.50:995][570]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.57.50:995][570]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.57.50:995][570]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.57.50:996][570]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.57.50:998][570]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.57.50:998][570]LogVoxel: Warning: Loading world
+[2018.12.15-08.57.51:045][570]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.57.51:047][570]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,053
+[2018.12.15-08.57.51:419][578]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -599.907959
+[2018.12.15-08.57.56:367][642]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -1114.933228
+[2018.12.15-08.58.54:490][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.58.54:512][524]LogSlate: Window 'PrototypeSurvivalCpp Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.15-08.58.54:612][524]LogVoxel: Warning: Unloading world
+[2018.12.15-08.58.54:691][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.58.54:782][525]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.12.15-08.59.04:643][114]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.59.14:117][665]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.59.14:780][689]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.59.14:806][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.59.14:806][689]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:59:14)
+[2018.12.15-08.59.14:806][689]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.59.14:808][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001800s)
+[2018.12.15-08.59.14:809][689]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.59.14:809][689]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2018.12.15-08.59.14:809][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.003016s)
+[2018.12.15-08.59.14:858][689]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.59.14:888][689]LogInit: FAudioDevice initialized.
+[2018.12.15-08.59.14:897][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.59.14:933][689]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.59.14:934][689]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.59.14
+[2018.12.15-08.59.14:935][689]LogWorld: Bringing up level for play took: 0.000867
+[2018.12.15-08.59.14:948][689]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.59.14:949][689]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.59.14:949][689]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.59.14:949][689]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.59.14:951][689]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.59.14:952][689]LogVoxel: Warning: Loading world
+[2018.12.15-08.59.14:998][689]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.59.15:000][689]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap -0,099
+[2018.12.15-08.59.15:380][697]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -591.980164
+[2018.12.15-08.59.18:057][735]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -876.723389
+[2018.12.15-08.59.33:633][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.59.33:654][913]LogSlate: Window 'PrototypeSurvivalCpp Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.15-08.59.33:731][913]LogVoxel: Warning: Unloading world
+[2018.12.15-08.59.33:792][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-08.59.33:894][914]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.12.15-08.59.38:895][212]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.59.55:304][176]BlueprintLog: New page: Compile TreeActor
+[2018.12.15-08.59.55:991][202]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.15-08.59.56:016][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.15-08.59.56:017][202]PIE: New page: PIE session: VoxelMap (15 déc. 2018 10:59:56)
+[2018.12.15-08.59.56:017][202]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap
+[2018.12.15-08.59.56:018][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2018.12.15-08.59.56:020][202]LogAIModule: Creating AISystem for world VoxelMap
+[2018.12.15-08.59.56:020][202]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2018.12.15-08.59.56:020][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/VoxelMap/Map/VoxelMap.VoxelMap to /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap (0.003611s)
+[2018.12.15-08.59.56:062][202]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.15-08.59.56:096][202]LogInit: FAudioDevice initialized.
+[2018.12.15-08.59.56:105][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-08.59.56:140][202]LogLoad: Game class is 'MyGame_C'
+[2018.12.15-08.59.56:142][202]LogWorld: Bringing World /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap.VoxelMap up for play (max tick rate 60) at 2018.12.15-09.59.56
+[2018.12.15-08.59.56:142][202]LogWorld: Bringing up level for play took: 0.000954
+[2018.12.15-08.59.56:156][202]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.59.56:156][202]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.15-08.59.56:156][202]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.59.56:157][202]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ThirdPersonBP/ThirdPersonCharacter/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2018.12.15-08.59.56:159][202]LogVoxel: Voxel Invoker registered. Owner: GreystonePlayerCharacter_C_0
+[2018.12.15-08.59.56:159][202]LogVoxel: Warning: Loading world
+[2018.12.15-08.59.56:208][202]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.15-08.59.56:210][202]PIE: Play in editor start time for /Game/ThirdPersonBP/VoxelMap/Map/UEDPIE_0_VoxelMap 1,11
+[2018.12.15-08.59.56:587][211]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -599.318298
+[2018.12.15-08.59.59:179][253]LogBlueprintUserMessages: [GreystonePlayerCharacter_C_0] -913.753418
+[2018.12.15-09.00.21:463][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.15-09.00.21:486][538]LogSlate: Window 'PrototypeSurvivalCpp Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.15-09.00.21:567][538]LogVoxel: Warning: Unloading world
+[2018.12.15-09.00.21:632][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.15-09.00.21:717][539]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.12.15-09.00.39:462][598]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.15-09.06.28:310][618]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/VoxelMap/Map/VoxelMap' took 0.041
+[2018.12.15-09.06.28:317][618]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/VoxelMap/Actors/TreeActor] ([1] browsable assets)...
+[2018.12.15-09.06.28:362][618]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/VoxelMap/Actors/TreeActor.TreeActor]
+[2018.12.15-09.06.28:362][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/VoxelMap/Actors/TreeActor]
+[2018.12.15-09.06.28:441][618]LogSavePackage: Moving '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/TreeActor_Auto1755C9B294F00EDFCC18A4BB841DE3A11.tmp' to '../../../../../../Users/Yukinoshita/Documents/Unreal Projects/PrototypeSurvivalCpp/Saved/Autosaves/Game/ThirdPersonBP/VoxelMap/Actors/TreeActor_Auto1.uasset'
+[2018.12.15-09.06.28:448][618]LogFileHelpers: Auto-saving content packages took 0.135
+[2018.12.15-09.30.19:304][ 62]LogAssetEditorManager: Opening Asset editor for VoxelGraphMacro /Game/ThirdPersonBP/VoxelMap/Map/MyMacroWorld.MyMacroWorld
+[2018.12.15-09.30.51:737][991]LogEditorTransaction: Undo Add Child
+[2018.12.15-09.30.52:172][ 15]LogEditorTransaction: Undo Clear Children
+[2018.12.15-09.30.52:626][ 41]LogEditorTransaction: Undo Voxel Editor: New Node
+[2018.12.15-09.30.53:079][ 67]LogEditorTransaction: Undo Move Node
+[2018.12.15-09.30.53:916][117]LogEditorTransaction: Undo Move Node
+[2018.12.15-09.30.54:218][135]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.15-09.30.54:439][148]LogEditorTransaction: Undo Edit Can be in Cluster
+[2018.12.15-09.30.54:651][160]LogEditorTransaction: Undo Reset to Default
+[2018.12.15-09.30.54:858][172]LogEditorTransaction: Undo Edit Mesh LOD To Use For Overlap Detection
+[2018.12.15-09.30.55:038][182]LogEditorTransaction: Undo Edit Mesh LOD To Use For Overlap Detection
+[2018.12.15-09.30.55:243][194]LogEditorTransaction: Undo Reset to Default
+[2018.12.15-09.30.55:433][205]LogEditorTransaction: Undo Edit Tick Interval (secs)
+[2018.12.15-09.30.55:673][219]LogEditorTransaction: Undo Edit Actor Hidden In Game
+[2018.12.15-09.30.56:098][244]LogEditorTransaction: Undo Edit Actor Hidden In Game
+[2018.12.15-09.30.56:352][259]LogEditorTransaction: Undo Edit Only Check Voxels at Position for Overlap
+[2018.12.15-09.30.57:880][350]LogEditorTransaction: Redo Edit Only Check Voxels at Position for Overlap
+[2018.12.15-09.30.58:951][414]LogEditorTransaction: Redo Edit Actor Hidden In Game
+[2018.12.15-09.30.59:158][426]LogEditorTransaction: Redo Edit Actor Hidden In Game
+[2018.12.15-09.30.59:331][436]LogEditorTransaction: Redo Edit Tick Interval (secs)
+[2018.12.15-09.30.59:520][447]LogEditorTransaction: Redo Reset to Default
+[2018.12.15-09.30.59:692][457]LogEditorTransaction: Redo Edit Mesh LOD To Use For Overlap Detection
+[2018.12.15-09.30.59:868][467]LogEditorTransaction: Redo Edit Mesh LOD To Use For Overlap Detection
+[2018.12.15-09.31.00:041][477]LogEditorTransaction: Redo Reset to Default
+[2018.12.15-09.31.00:230][488]LogEditorTransaction: Redo Edit Can be in Cluster
+[2018.12.15-09.31.00:403][498]LogEditorTransaction: Redo Clicking on Actors
+[2018.12.15-09.31.00:573][507]LogEditorTransaction: Redo Move Node
+[2018.12.15-09.31.00:792][520]LogEditorTransaction: Redo Move Node
+[2018.12.15-09.31.00:896][526]LogEditorTransaction: Redo Voxel Editor: New Node
+[2018.12.15-09.31.01:070][536]LogEditorTransaction: Redo Clear Children

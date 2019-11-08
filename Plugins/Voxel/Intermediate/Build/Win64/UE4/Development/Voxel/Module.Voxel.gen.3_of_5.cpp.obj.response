@@ -1,0 +1,111 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/we4668
+/I .
+/I "C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Source\Voxel\Private"
+/I ThirdParty
+/I ThirdParty\nvtesslib\inc
+/I ThirdParty\ForsythTriOO\Src
+/I "C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Intermediate\Build\Win64\UE4\Inc\Voxel"
+/I "C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Source"
+/I "C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Source\Voxel\Public"
+/I Runtime
+/I Runtime\Core\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\Slate
+/I Runtime\Slate\Public
+/I Runtime\ImageWrapper\Public
+/I Runtime\Messaging\Public
+/I Runtime\MessagingCommon\Public
+/I Runtime\RenderCore\Public
+/I Runtime\ShaderCore\Public
+/I Runtime\UtilityShaders\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\AssetRegistry
+/I Runtime\AssetRegistry\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\EngineMessages
+/I Runtime\EngineMessages\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\EngineSettings
+/I Runtime\EngineSettings\Classes
+/I Runtime\EngineSettings\Public
+/I Runtime\SynthBenchmark\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\Renderer
+/I Runtime\Renderer\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\GameplayTags
+/I Runtime\GameplayTags\Classes
+/I Runtime\GameplayTags\Public
+/I Runtime\DatabaseSupport\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\PacketHandler
+/I Runtime\PacketHandlers
+/I Runtime\PacketHandlers\PacketHandler\Classes
+/I Runtime\PacketHandlers\PacketHandler\Public
+/I Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\AudioPlatformConfiguration
+/I Runtime\AudioPlatformConfiguration\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\MeshDescription
+/I Runtime\MeshDescription\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\ClothingSystemRuntimeInterface
+/I Runtime\ClothingSystemRuntimeInterface\Public
+/I Runtime\NetworkReplayStreaming
+/I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\AudioMixer
+/I Runtime\AudioMixer\Classes
+/I Runtime\AudioMixer\Public
+/I ThirdParty\libSampleRate\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
+/I Runtime\AnimationCore\Public
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4\Inc\ProceduralMeshComponent
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\Landscape
+/I Runtime\Landscape\Classes
+/I Runtime\Landscape\Public
+/I Runtime\Sockets\Public
+/I Runtime\Networking\Public
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/D_HAS_EXCEPTIONS=0
+/D_HAS_EXCEPTIONS=0
+/FI"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Intermediate\Build\Win64\PrototypeSurvivalCpp\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Intermediate\Build\Win64\PrototypeSurvivalCpp\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Intermediate\Build\Win64\PrototypeSurvivalCpp\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Intermediate\Build\Win64\UE4\Development\Voxel\Module.Voxel.gen.3_of_5.cpp"
+/FI"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Intermediate\Build\Win64\UE4\Development\Voxel\Definitions.Voxel.h"
+/Fo"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeSurvivalCpp\Plugins\Voxel\Intermediate\Build\Win64\UE4\Development\Voxel\Module.Voxel.gen.3_of_5.cpp.obj"
+/TP
+/GR-
+/W4

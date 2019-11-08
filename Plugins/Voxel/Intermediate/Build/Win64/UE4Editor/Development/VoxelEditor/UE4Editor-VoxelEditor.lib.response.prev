@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VoxelEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeV3\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeV3\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\Module.VoxelEditor.cpp.obj"
+"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeV3\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\Module.VoxelEditor.gen.cpp.obj"
+"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeV3\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\PCLaunch.rc.res"
+/OUT:"C:\Users\Yukinoshita\Documents\Unreal Projects\PrototypeV3\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\UE4Editor-VoxelEditor.lib"
